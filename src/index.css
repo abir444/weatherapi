@@ -13,12 +13,63 @@ code {
     monospace;
 }
 
-.outerBox {
+.outerBoxCloudy {
   margin-top: 30px !important;
   background: rgba(255, 255, 255, 0.85);
   padding: 20px;
-  width: 500px;
+  width: 900px;
+  height: 400px;
+  background-image: url(https://i.pinimg.com/originals/65/a4/8d/65a48d09105a0cfef13b5b850725fff3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: rgb(241, 241, 241);
   margin: auto;
+  font-size: 600%;
   border-radius: 5px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2), 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.outerBoxSunny{
+  margin-top: 30px !important;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  width: 900px;
+  height: 400px;
+  background-image: url(https://thumbs.dreamstime.com/b/reflection-blue-sky-car-side-mirror-sunny-day-mirrow-view-out-driving-road-95609373.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: rgb(121, 188, 247);
+  margin: auto;
+  font-size: 600%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2), 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.outerBoxMist{
+  margin-top: 30px !important;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  width: 900px;
+  height: 400px;
+  background-image: url(https://image.shutterstock.com/image-photo/fog-car-window-260nw-739680784.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: rgb(121, 188, 247);
+  margin: auto;
+  font-size: 600%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2), 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+.tempD{
+  font-size: 50px;
+}
+
+.tempDs{
+  font-size: 30px;
 }
